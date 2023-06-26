@@ -1,0 +1,78 @@
+body{
+    background-color: antiquewhite;
+    font-family: monospace;
+}
+
+
+.container{
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20%;
+    height: 45vh;
+    
+
+}
+
+.leftSide{
+    display: flex;
+    flex-direction: column;
+    background-color: coral;
+    box-shadow: 10px 10px 1px lightblue;
+    width: 45%;
+    height: fit-content;
+  
+    color: white;
+  
+
+    
+}
+.leftSide h2{
+    text-align: center;
+}
+.btn{
+    font-family: fantasy;
+    background-color: rgba(27, 227, 227, 0.701);
+    
+    border: none;
+    padding: 15px 25px;
+    font-size: 20px;
+    box-shadow: 2px 2px ;
+    transition:  background-color  0.5s  ease-in-out, border 0.5s;
+}
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 1px solid black;
+
+}
+.inputfield{
+
+    background-color: aliceblue;
+    font-family: fantasy;
+    height: 30px;
+    font-size: 35px;
+
+
+}
+.inputfield:hover{
+    background-color: beige;
+}
+
+.rightSide{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+   .intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+   }
+   .listItems{
+    font-size: 20px;
+    padding-left: 10%;
+   }
